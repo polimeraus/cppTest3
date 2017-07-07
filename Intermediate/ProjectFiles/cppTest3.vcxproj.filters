@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\cppTest3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8A3458CF-9406-4C52-813C-6DD688A25825}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\cppTest3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\cppTest3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{873895F9-1613-436A-B9E4-3C8F3FFC516D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\cppTest3">
+      <UniqueIdentifier>{C9D7DBB5-140B-4616-9E2D-8BD6233B2428}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\cppTest3\cppTest3.Build.cs">
+      <Filter>Source\cppTest3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\cppTest3\cppTest3.cpp">
+      <Filter>Source\cppTest3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cppTest3\cppTest3.h">
+      <Filter>Source\cppTest3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\cppTest3\cppTest3Character.cpp">
+      <Filter>Source\cppTest3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cppTest3\cppTest3Character.h">
+      <Filter>Source\cppTest3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\cppTest3\cppTest3GameMode.cpp">
+      <Filter>Source\cppTest3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cppTest3\cppTest3GameMode.h">
+      <Filter>Source\cppTest3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\cppTest3\MySphere.h">
+      <Filter>Source\cppTest3</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\Source\cppTest3\SphereSpawner2.h">
+      <Filter>Source\cppTest3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\cppTest3\MySphere.cpp">
+      <Filter>Source\cppTest3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cppTest3\SphereSpawner2.cpp">
+      <Filter>Source\cppTest3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cppTest3.rc" />
+  </ItemGroup>
+</Project>

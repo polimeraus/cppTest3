@@ -1,0 +1,3 @@
+C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Source\cppTest3\cppTest3.Build.cs
+C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Source\cppTest3.Target.cs
+C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Source\cppTest3Editor.Target.cs

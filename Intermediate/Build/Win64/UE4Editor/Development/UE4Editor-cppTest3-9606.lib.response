@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-cppTest3-9606.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\cppTest3.cpp.obj"
+"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\cppTest3Character.cpp.obj"
+"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\cppTest3GameMode.cpp.obj"
+"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\MySphere.cpp.obj"
+"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\SphereSpawner2.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\cppTest3\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\gokhan.zer\Documents\Unreal Projects\cppTest3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-cppTest3-9606.lib"
