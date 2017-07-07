@@ -35,6 +35,22 @@ ASphereSpawner2::ASphereSpawner2()
 	https://answers.unrealengine.com/questions/422613/help-understanding-tsubclassof-when-spawning.html
 	https://answers.unrealengine.com/questions/405470/how-to-get-a-derived-class-from-tsubclassof.html
 	*/
+
+
+
+	/*
+	TAssetSubclassOf vs TSubclassOf
+	What's the difference and when to use?
+	TAssetSubclassOf is a lazy pointer to a class, let's say for example you're creating a blueprint that strongly references a static mesh in its default object, if you're using TAssetSubclassOf to reference the blueprint's generated class then that class will only be loaded when you actually dereference it. This has the benefit of saving memory usage compared to TSubclassOf which will load and retain the class.
+
+	TAssetSubclassOf is, under the hood, using FStringAssetReference wrapped in FAssetPtr, thus it only stores the object's path and will try to resolve it at runtime and store it in a lazy pointer. It saves a lot of memory especially when the blueprint is quite large and contains lots of data.
+
+	If you have ever used FStringClassReference, then this is the more convenient version of it. (Similar to how TAssetPtr is more convenient than FStringAssetReference).
+
+	Although TAssetSubclassOf is convenient from optimization point of view, it does incur a bit more work for the programmer, before derefencing it you must make sure the class is valid and loaded (compared to using TSubclassOf which will always valid by the time you specify it in the editor / native code).
+
+	Since TAssetSubclassOf is a FStringAssetReference, it can also be use to weak reference an asset (in this case a blueprint generated class), the editor won't ask you to replace the reference when the blueprint is deleted.
+	*/
 }
 
 
